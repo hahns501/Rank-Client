@@ -1,0 +1,28 @@
+.inputForm{
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+
+    width: fit-content;
+    justify-content: center;
+
+    border-top: solid;
+}
+
+.inputForm h2{
+    margin: 0;
+}
+
+
+.inputForm input{
+    width: inherit;
+
+    padding: 5px;
+    margin-left: 3px;
+    margin-bottom: 3px;
+    margin-top: 3px;
+}
+
+.inputForm button{
+    margin: 3px auto;
+}

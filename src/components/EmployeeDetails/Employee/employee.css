@@ -1,0 +1,22 @@
+.employee {
+    border-style: solid;
+    border-color: black;
+    margin-top: 5px;
+    flex-direction: column;
+
+    border-radius: 7px;
+}
+
+.employee h2{
+    margin: 0;
+    padding: 3px;
+}
+
+/*.newInput {*/
+/*    display: flex;*/
+/*    flex-direction: row;*/
+/*}*/
+
+/*.newInput input {*/
+/*    display: flex;*/
+/*}*/

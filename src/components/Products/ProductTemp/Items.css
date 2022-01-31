@@ -1,0 +1,19 @@
+.item{
+    border-style: solid;
+    border-color: black;
+    margin-top: 5px;
+    flex-direction: column;
+
+    border-radius: 7px;
+}
+
+.first-line{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.item h2{
+    padding: 12px;
+    margin: 0;
+}

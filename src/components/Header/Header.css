@@ -1,0 +1,33 @@
+.Header nav{
+    display: flex;
+    background-color: #0c1c26;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Header nav ul{
+    display: flex;
+    list-style: none;
+    margin-right: 20px;
+}
+
+.Header nav h1{
+    color:white;
+    padding-left: 20px;
+    font-size: xx-large;
+    font-family: Lato, "Noto Sans", Helvetica, Corbel, sans-serif, Helvetica, Corbel, sans-serif;
+}
+
+.Header nav ul li {
+    padding: 10px;
+}
+
+.Header nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.current {
+    border-bottom: 4px solid white;
+}

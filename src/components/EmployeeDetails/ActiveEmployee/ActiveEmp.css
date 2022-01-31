@@ -1,0 +1,15 @@
+.activeEmp{
+    border-style: solid;
+    border-color: black;
+    margin-top: 5px;
+    flex-direction: column;
+
+    border-radius: 7px;
+
+    overflow-wrap: break-word;
+}
+
+.activeEmp h2{
+    padding: 5px;
+    margin: 0;
+}

@@ -1,0 +1,64 @@
+.App {
+    width: 100vw;
+    height: 100vh;
+    font-family: ato, "Noto Sans", Helvetica, Corbel, sans-serif, Helvetica, Corbel, sans-serif;;
+    display: flex;
+    flex-direction: row;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.Main{
+    flex: 1 0 84%;
+    /*margin: 5px;*/
+    /*background-color: lightslategray;*/
+}
+
+.Sidebar{
+    flex: 1 0 16%;
+    /*height: 100%;*/
+    /*width: 200px;*/
+    background-color: #33475e;
+
+}
+
+.SidebarItems {
+    padding-left: 0;
+    margin-top: 0;
+
+    display: flex;
+    flex-direction: column;
+    /*align-content: center;*/
+}
+
+.SidebarItems .row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 40px;
+    width: 100%;
+
+    list-style-type: none;
+    color: white;
+
+    font-size: x-large;
+    font-weight: 600;
+}
+
+.SidebarItems .row:hover {
+    cursor: pointer;
+    background-color: #293846;
+}
+
+/*.row #title{*/
+/*    flex:100%;*/
+/*    place-items: center;*/
+/*}*/
+
+
+
+

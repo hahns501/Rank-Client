@@ -1,0 +1,27 @@
+.SearchProduct{
+    width: inherit;
+    margin-bottom: 5px;
+}
+
+.SearchProduct Input{
+    width: 100%;
+    /*padding: 13px;*/
+    box-sizing: border-box;
+    /*border: 2px solid #ccc;*/
+    /*border-radius: 5px;*/
+    /*background-color: #efefef;*/
+    /*outline: none;*/
+
+
+}
+
+.SearchProduct .adornment{
+    width: 100%;
+    padding: 9px;
+    border-color: black;
+    outline: none;
+}
+
+.SearchProduct input:focus{
+    background-color: white;
+}

@@ -1,0 +1,19 @@
+.mainMenu{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+    margin: auto;
+    max-width: 300px;
+
+}
+
+.mainMenu Button{
+    margin: 5px;
+    justify-self: center;
+}
+
+.mainMenu a{
+    margin: 5px;
+    justify-self: center;
+}
